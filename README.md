@@ -4,6 +4,7 @@ Reference
 
 Qilong Zhang, & Pless, R. (n.d.). Extrinsic calibration of a camera and laser range finder (improves camera calibration). 2004 IEEE/RSJ International Conference on Intelligent Robots and Systems
 
+## Algorithm Summary
 
 1. Build a big checkerboard and place it in front of the camera-laser range finder
 system in the different orientations.
