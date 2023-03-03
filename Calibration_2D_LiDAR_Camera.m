@@ -140,8 +140,7 @@ end
 
 
 %% step5. Laser points into Image
-% phi =[[0.9995, 0.0165, -0.0268]; [0.0154,-0.9990,-0.0421]; [-0.0275,0.0417,-0.9988]]
-% delta = [-27.3456;-24.4341;-100.7541]
+
 
 % get rotation vector
 phiinv=inv(phi);
@@ -193,7 +192,7 @@ img = imread([stringlsBase, num2str(i),'.bmp']);
 figure;
 imshow(img);
 hold on 
-plot(round(x(1,:)),round(flip(y(1,:))),'.r','MarkerSize',20)
+plot(round(x(1,:)),round(y(1,:)),'.r','MarkerSize',20)
 
 hold off
 end
